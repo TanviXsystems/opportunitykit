@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local environment files
+.env*.local
+.env
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# generated submission PDF is kept in the repo (submission/), do not ignore it
