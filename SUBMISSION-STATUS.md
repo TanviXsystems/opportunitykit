@@ -20,4 +20,15 @@ Live tracker for submission section 15.G. Update as items are completed.
 1. **Live prototype URL** — deploy: `npm run build && vercel --prod` (or Netlify). Verify the URL opens, shows the landing page, and the demo runs. Then: `python3 scripts/make_pdf.py --live-url "https://..." ...` and regenerate the PDF.
 2. **GitHub source URL** — create a public repo, push the `opportunitykit/` directory, verify it loads, then regenerate the PDF with `--github-url`.
 3. **Demonstration video URL** — follow `docs/DEMO_VIDEO_SCRIPT.md` (script + recording checklist + publishing steps), verify incognito access without a sign-in prompt, then regenerate the PDF with `--video-url`.
-4. **Team name / member name** — supply them and regenerate: `--team "Team Name" --member "Member Name"`.
+
+Team: **Team Believer · Tanvi Goyal** (Forge Realm | PS-03) — printed in the PDF.
+
+## Landing-page redesign (2026-10-17)
+
+The landing page was redesigned as "The Opportunity Gap" — an immersive 3D story
+(React Three Fiber + drei + framer-motion) with a 2D SVG fallback for no-WebGL and
+reduced-motion visitors. Removed from the landing page per the redesign brief:
+Technology & Approach, Business Model, For Judges. That information is preserved on
+dedicated functional routes (`/technology`, `/business-model`) and in README.md.
+All functional demo routes, the eligibility engine, persistence, and demo data are
+unchanged.

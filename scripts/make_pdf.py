@@ -106,6 +106,7 @@ def main():
         ['Problem statement', 'Opportunity requirements are scattered across different sources and formats; students struggle to determine whether they meet the criteria, and missing skills, documents or unconfirmed information create uncertainty.'],
         ['Team name', args.team or '[TO BE FILLED IN — see SUBMISSION-STATUS.md]'],
         ['Team member(s)', args.member or '[TO BE FILLED IN — see SUBMISSION-STATUS.md]'],
+        ['Competition track', 'SETU 2026 · Forge Realm | PS-03'],
         ['Prototype status', 'Working MVP demo. No paid API, external account or configuration required.'],
     ]
     t = Table(meta, colWidths=[38 * mm, 132 * mm])
